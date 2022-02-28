@@ -37,12 +37,12 @@ h1 {
 }
 
 .sottotit {
-    color: gray;
+    color: #919191;
     margin-bottom: 20px;
 }
 
 .author {
-    color: rgb(0, 137, 250);
+    color: #3bb4e8;
 }
 
 /* paragrafo */
@@ -59,4 +59,14 @@ h1 {
 ul {
     margin-left: 10px;
     margin-bottom: 30px;
+}
+
+/* tabella */
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+.azzurro {
+    background-color: #b1e5f2;
 }
