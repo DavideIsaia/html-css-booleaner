@@ -6,7 +6,6 @@
 
 header{
 	background-size: cover;
-	position: relative;
 }
 
 .sfondo-logo {
@@ -14,17 +13,6 @@ header{
     background-color: #4ea0ff;
     background-size: 50%;
 	padding: 50px;
-    position:relative;
-}
-
-.logo {
-    background-image: url(../img/logo.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    height: 50%;
-    width: 20%;
-    left: 10px;
-    bottom: 10px;
 }
 
 main, footer,ul {
@@ -56,9 +44,21 @@ h1 {
 }
 
 /* tabella */
+table {
+    border-collapse: collapse;
+  }
+
 thead {
     background-color: #20a9e5;
     color: white;
+}
+
+.colonna-25 {
+    width: 25%;
+    text-align: left;
+}
+.colonna-50 {
+    text-align: left;
 }
 
 .azzurro {
