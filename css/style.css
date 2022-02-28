@@ -35,10 +35,20 @@ h1 {
   margin-top: 20px;
 }
 
-.create {
+.sottotit {
     color: gray;
+    margin-bottom: 20px;
 }
 
 .author {
     color: rgb(0, 137, 250);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.margin-p {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
