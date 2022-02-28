@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+	background-size: cover;
+}
+
+.sfondo-logo {
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    background-size: 50%;
+}
+
+.logo {
+ margin: 30px 10px 5px;
+}
+
+/* margini cambiati rispetto allo stile predefinito */
+main, footer {
+    margin-left: 100px;
+    width: 90vw;
+}
+
+/* titolo e sottotitolo */
+h1 {
+  margin-top: 20px;
+}
+
+.sottotit {
+    color: #919191;
+    margin-bottom: 20px;
+}
+
+.author {
+    color: #3bb4e8;
+}
+
+/* paragrafo */
+.yellow {
+    background-color: yellow;
+}
+
+.margin-p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+/* tabella */
+table {
+    border-collapse: collapse;
+  }
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+.colonna-25 {
+    width: 25%;
+    text-align: left;
+}
+.colonna-50 {
+    text-align: left;
+}
+
+.azzurro {
+    background-color: #b1e5f2;
+}
+
+/* footer */
+.footer-description {
+    color: white;
+    font-weight: 1000;
+    padding: 10px;
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 210px;
+    margin-bottom: 30px;
+}
