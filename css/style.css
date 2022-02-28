@@ -12,7 +12,10 @@ header{
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
     background-size: 50%;
-	padding: 50px;
+}
+
+.logo {
+ margin: 30px 10px 5px;
 }
 
 main, footer,ul {
