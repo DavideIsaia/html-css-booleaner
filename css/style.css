@@ -69,6 +69,7 @@ thead {
 .footer-description {
     color: white;
     font-weight: 1000;
+    padding: 10px;
 }
 
 .monitor {
