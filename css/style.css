@@ -31,6 +31,7 @@ main {
     margin-left: 10px;
 }
 
+/* titolo e sottotitolo */
 h1 {
   margin-top: 20px;
 }
@@ -44,11 +45,18 @@ h1 {
     color: rgb(0, 137, 250);
 }
 
+/* paragrafo */
 .yellow {
     background-color: yellow;
 }
 
 .margin-p {
     margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* lista puntata */
+ul {
+    margin-left: 10px;
     margin-bottom: 30px;
 }
