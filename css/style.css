@@ -1,25 +1,25 @@
+/* regole generali */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-	background-size: cover;
+main, footer {
+    margin-left: 10px;
 }
 
+/* header */
 .sfondo-logo {
+    height: 80px;
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
-    background-size: 50%;
+    background-size: 30%;
 }
 
 .logo {
- margin: 30px 10px 5px;
-}
-
-main, footer,ul {
-    margin-left: 10px;
+    height: 40px;
+    margin: 30px 10px 5px;
 }
 
 /* titolo e sottotitolo */
@@ -36,6 +36,11 @@ h1 {
     color: #3bb4e8;
 }
 
+/* foto grandi */
+.gallery img {
+    max-width: 100%;
+}
+
 /* paragrafo */
 .yellow {
     background-color: yellow;
@@ -46,6 +51,13 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* lista puntata */
+
+ul {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
 /* tabella */
 table {
     border-collapse: collapse;
@@ -54,14 +66,11 @@ table {
 thead {
     background-color: #20a9e5;
     color: white;
+    text-align: left;
 }
 
 .colonna-25 {
     width: 25%;
-    text-align: left;
-}
-.colonna-50 {
-    text-align: left;
 }
 
 .azzurro {
